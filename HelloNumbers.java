@@ -1,6 +1,7 @@
 public class HelloNumbers {
     
     public static int larger(int x, int y) {
+        /** Returns the larger of x and y */
         if (x > y) {
             return x;
         } else {
