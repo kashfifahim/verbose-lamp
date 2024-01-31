@@ -1,6 +1,6 @@
 public class DrawTriangles {
-    public static void main(String[] args) {
-        int numberOfLines = 5; // Total number of lines
+    public static void drawTriangle(int N) {
+        int numberOfLines = N; // Total number of lines
         for (int i=1; i <= numberOfLines; i++) {
             // Inner loop
             for (int j=1; j <= i; j++) {
@@ -9,5 +9,10 @@ public class DrawTriangles {
             // Move to the next line
             System.out.println();
         }
+    }
+
+    public static void main(String[] args) {
+        drawTriangle(10);
+        drawTriangle(5);
     }
 }
